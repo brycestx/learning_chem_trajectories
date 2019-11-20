@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/brycestx/learning_chem_trajectories/tree/gh-pages) branch hosts the contents of this directory at https://brycestx.github.io/learning_chem_trajectories/.
-The permalink for this webpage version is https://brycestx.github.io/learning_chem_trajectories/v/6edb253e11ff449fc44c3eb10e0fff3ed072deab/.
+The permalink for this webpage version is https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://brycestx.github.io/learning_chem_trajectories/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`6edb253e11ff449fc44c3eb10e0fff3ed072deab`](https://github.com/brycestx/learning_chem_trajectories/commit/6edb253e11ff449fc44c3eb10e0fff3ed072deab).
+[`c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86`](https://github.com/brycestx/learning_chem_trajectories/commit/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86).
