@@ -65,11 +65,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://brycestx.github.io/learning_chem_trajectories/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://brycestx.github.io/learning_chem_trajectories/v/6edb253e11ff449fc44c3eb10e0fff3ed072deab/" />
+  <link rel="alternate" type="text/html" href="https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/" />
 
-  <meta name="manubot_html_url_versioned" content="https://brycestx.github.io/learning_chem_trajectories/v/6edb253e11ff449fc44c3eb10e0fff3ed072deab/" />
+  <meta name="manubot_html_url_versioned" content="https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://brycestx.github.io/learning_chem_trajectories/v/6edb253e11ff449fc44c3eb10e0fff3ed072deab/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -97,9 +97,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://brycestx.github.io/learning_chem_trajectories/v/6edb253e11ff449fc44c3eb10e0fff3ed072deab/))
+([permalink](https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/))
 was automatically generated
-from [brycestx/learning_chem_trajectories@6edb253](https://github.com/brycestx/learning_chem_trajectories/tree/6edb253e11ff449fc44c3eb10e0fff3ed072deab)
+from [brycestx/learning_chem_trajectories@c82d11f](https://github.com/brycestx/learning_chem_trajectories/tree/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86)
 on November 20, 2019.
 </em></small>
 
