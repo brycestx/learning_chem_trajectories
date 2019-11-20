@@ -1,17 +1,11 @@
-# Automated scholarly manuscripts on GitHub
-
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
-
+# Learning chemical trajectories manuscript
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://brycestx.github.io/learning_chem_trajectories/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://brycestx.github.io/learning_chem_trajectories/manuscript.pdf)
 [![Build Status](https://travis-ci.com/brycestx/learning_chem_trajectories.svg?branch=master)](https://travis-ci.com/brycestx/learning_chem_trajectories)
 
 ## Manuscript description
 
-<!-- usage note: edit this section. -->
-
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This manuscript describes experiments performed in the context of active learning using small amounts of SAR data to progress a congeneric series and explore chemical space in an optimized fashion.
 
 ## Manubot
 
