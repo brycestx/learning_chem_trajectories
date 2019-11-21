@@ -1,61 +1,42 @@
 {
   "pandoc": {
-    "title": "Manuscript Title",
+    "title": "Improving Explorability in Chemical Space with Annealed Variational Objectives.",
     "keywords": [
       "markdown",
       "publishing",
-      "manubot"
+      "manubot",
+      "active learning",
+      "cheminformatics"
     ],
     "lang": "en-US",
-    "date-meta": "2019-11-20",
+    "date-meta": "2019-11-21",
     "author-meta": [
-      "John Doe",
-      "Jane Roe"
+      "Bryce Allen"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2019-11-20\" />\n<meta name=\"citation_publication_date\" content=\"2019-11-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"John Doe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta property=\"og:url\" content=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta property=\"twitter:url\" content=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta name=\"citation_pdf_url\" content=\"https://brycestx.github.io/learning_chem_trajectories/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://brycestx.github.io/learning_chem_trajectories/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Improving Explorability in Chemical Space with Annealed Variational Objectives.\" />\n<meta name=\"citation_title\" content=\"Improving Explorability in Chemical Space with Annealed Variational Objectives.\" />\n<meta property=\"og:title\" content=\"Improving Explorability in Chemical Space with Annealed Variational Objectives.\" />\n<meta property=\"twitter:title\" content=\"Improving Explorability in Chemical Space with Annealed Variational Objectives.\" />\n<meta name=\"dc.date\" content=\"2019-11-21\" />\n<meta name=\"citation_publication_date\" content=\"2019-11-21\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Bryce Allen\" />\n<meta name=\"citation_author_institution\" content=\"Silicon Therapeutics\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0804-8127\" />\n<meta name=\"twitter:creator\" content=\"@beniceandsmiles\" />\n<link rel=\"canonical\" href=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta property=\"og:url\" content=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta property=\"twitter:url\" content=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://brycestx.github.io/learning_chem_trajectories/\" />\n<meta name=\"citation_pdf_url\" content=\"https://brycestx.github.io/learning_chem_trajectories/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://brycestx.github.io/learning_chem_trajectories/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://brycestx.github.io/learning_chem_trajectories/v/ec4f497686d61140fd3a8218bb41b65289a04b7a/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://brycestx.github.io/learning_chem_trajectories/v/ec4f497686d61140fd3a8218bb41b65289a04b7a/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://brycestx.github.io/learning_chem_trajectories/v/ec4f497686d61140fd3a8218bb41b65289a04b7a/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
   },
   "manubot": {
-    "date": "November 20, 2019",
+    "date": "November 21, 2019",
     "authors": [
       {
-        "github": "johndoe",
-        "name": "John Doe",
-        "initials": "JD",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "twitter": "johndoe",
-        "email": "john.doe@something.com",
+        "github": "brycestx",
+        "name": "Bryce Allen",
+        "initials": "BA",
+        "orcid": "0000-0002-0804-8127",
+        "twitter": "beniceandsmiles",
+        "email": "bryce@silicontx.com",
         "affiliations": [
-          "Department of Something, University of Whatever"
+          "Silicon Therapeutics"
         ],
-        "funders": "Grant XXXXXXXX",
         "affiliation_numbers": [
           1
-        ]
-      },
-      {
-        "github": "janeroe",
-        "name": "Jane Roe",
-        "initials": "JR",
-        "orcid": "XXXX-XXXX-XXXX-XXXX",
-        "email": "jane.roe@whatever.edu",
-        "affiliations": [
-          "Department of Something, University of Whatever",
-          "Department of Whatever, University of Something"
-        ],
-        "affiliation_numbers": [
-          1,
-          2
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "Department of Something, University of Whatever",
+        "affiliation": "Silicon Therapeutics",
         "affiliation_number": 1
-      },
-      {
-        "affiliation": "Department of Whatever, University of Something",
-        "affiliation_number": 2
       }
     ],
     "ci_source": {
@@ -63,20 +44,20 @@
       "repo_slug": "brycestx/learning_chem_trajectories",
       "repo_owner": "brycestx",
       "repo_name": "learning_chem_trajectories",
-      "commit": "c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86",
-      "triggering_commit": "c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86",
-      "build_url": "https://travis-ci.com/brycestx/learning_chem_trajectories/builds/137473236",
-      "job_url": "https://travis-ci.com/brycestx/learning_chem_trajectories/jobs/258805102"
+      "commit": "ec4f497686d61140fd3a8218bb41b65289a04b7a",
+      "triggering_commit": "ec4f497686d61140fd3a8218bb41b65289a04b7a",
+      "build_url": "https://travis-ci.com/brycestx/learning_chem_trajectories/builds/137575384",
+      "job_url": "https://travis-ci.com/brycestx/learning_chem_trajectories/jobs/259043630"
     },
     "html_url": "https://brycestx.github.io/learning_chem_trajectories/",
     "pdf_url": "https://brycestx.github.io/learning_chem_trajectories/manuscript.pdf",
-    "html_url_versioned": "https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/",
-    "pdf_url_versioned": "https://brycestx.github.io/learning_chem_trajectories/v/c82d11fb8ff0e2eb3897d0ff8eac0e8dcd9b2c86/manuscript.pdf",
+    "html_url_versioned": "https://brycestx.github.io/learning_chem_trajectories/v/ec4f497686d61140fd3a8218bb41b65289a04b7a/",
+    "pdf_url_versioned": "https://brycestx.github.io/learning_chem_trajectories/v/ec4f497686d61140fd3a8218bb41b65289a04b7a/manuscript.pdf",
     "manuscript_stats": {
       "reference_counts": {
         "total": 0
       },
-      "word_count": 243
+      "word_count": 333
     }
   }
 }
