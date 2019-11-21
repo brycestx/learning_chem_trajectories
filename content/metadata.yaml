@@ -1,27 +1,19 @@
 ---
-title: "Manuscript Title"
+title: "Improving Explorability in Chemical Space with Annealed Variational Objectives."
 keywords:
   - markdown
   - publishing
   - manubot
+  - active learning
+  - cheminformatics
 lang: en-US
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: brycestx
+    name: Bryce Allen
+    initials: BA
+    orcid: 0000-0002-0804-8127
+    twitter: beniceandsmiles
+    email: bryce@silicontx.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
-  -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Silicon Therapeutics
